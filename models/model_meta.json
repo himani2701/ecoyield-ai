@@ -1,0 +1,67 @@
+{
+  "accuracy": 0.995,
+  "mode": "synthetic",
+  "trained_at": "2026-02-27T18:44:08Z",
+  "num_samples": 1008,
+  "num_features": 47,
+  "samples_per_class": 112,
+  "classes": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-Full",
+    "Scratch",
+    "Random",
+    "None"
+  ],
+  "per_class": {
+    "Center": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Donut": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Edge-Loc": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Edge-Ring": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Loc": {
+      "precision": 1.0,
+      "recall": 0.957,
+      "f1": 0.978
+    },
+    "Near-Full": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Scratch": {
+      "precision": 0.958,
+      "recall": 1.0,
+      "f1": 0.979
+    },
+    "Random": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "None": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "train_seconds": 15.3
+}
