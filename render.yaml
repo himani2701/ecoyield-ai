@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ecoyield-ai
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python ai/train.py
+    startCommand: python api/server.py
+    envVars:
+      - key: PORT
+        value: 8000
