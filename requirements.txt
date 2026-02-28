@@ -3,3 +3,7 @@ scikit-learn==1.4.2
 opencv-python-headless==4.9.0.80
 Pillow==10.3.0
 scipy==1.13.0
+fastapi
+uvicorn
+python-multipart
+gunicorn
