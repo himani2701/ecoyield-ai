@@ -2,8 +2,7 @@ numpy==1.26.4
 scikit-learn==1.4.2
 opencv-python-headless==4.9.0.80
 Pillow==10.3.0
-scipy==1.13.0
+scipy==1.11.4
 fastapi
 uvicorn
 python-multipart
-gunicorn
